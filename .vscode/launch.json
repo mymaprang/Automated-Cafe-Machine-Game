@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Cafe Machine Game",
+      "request": "launch",
+      "mainClass": "ActualGame.TaoBinTesting",
+      "projectName": "Automated-Cafe-Machine-Game"
+    }
+  ]
+}

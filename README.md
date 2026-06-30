@@ -40,25 +40,40 @@ ActualGame.TaoBinTesting
 
 ## How to Run
 
-This project was originally made in Eclipse and uses Java 17.
+This project was originally made in Eclipse and can run with Java 8 or newer.
+
+### Quick Run on macOS
+
+Double-click `run-game.command` from this project folder.
+
+If macOS blocks it, open Terminal in this folder and run:
+
+```sh
+chmod +x run-game.command
+./run-game.command
+```
+
+You need a Java runtime to use the launcher. To edit or run from VS Code/Eclipse, install a full Java JDK, not only a JRE.
 
 ### Run in VS Code
 
-1. Install JDK 17.
+1. Install a Java JDK, version 8 or newer.
 2. Install the VS Code extension: `Extension Pack for Java`.
 3. Open this folder in VS Code.
-4. Open `src/ActualGame/TaoBinTesting.java`.
-5. Click `Run` above the `main` method.
+4. Open the Run and Debug panel.
+5. Select `Run Cafe Machine Game`.
+6. Click Run.
 
 ### Run in Eclipse
 
-1. Install JDK 17.
+1. Install a Java JDK, version 8 or newer.
 2. Open Eclipse.
 3. Go to `File > Import > General > Existing Projects into Workspace`.
 4. Select this project folder.
 5. Run `src/ActualGame/TaoBinTesting.java` as a Java Application.
 
+If Eclipse says this folder is not a valid project, make sure `.project` and `.classpath` exist in the project root. Those files tell Eclipse that this is a Java project.
+
 ## Notes
 
 This is an older student project, so some code and layout choices are not fully polished. The goal of this repository is to preserve and showcase the original Java Swing game.
-
